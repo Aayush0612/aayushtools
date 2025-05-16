@@ -1,0 +1,20 @@
+#!/bin/bash
+case "$(basename "$0")" in
+    keyboardmax)
+        brightnessctl --device='platform::kbd_backlight' set 2
+        echo "Keyboard backlight set to maximum"
+        ;;
+    keyboardmed)
+        brightnessctl --device='platform::kbd_backlight' set 1
+        echo "Keyboard backlight set to medium"
+        ;;
+    keyboardmin)
+        brightnessctl --device='platform::kbd_backlight' set 0
+        echo "Keyboard backlight turned off"
+        ;;
+    *)
+        echo "Unknown command. Use keyboardmin, keyboardmed, or keyboardmax"
+        exit 1
+        ;;
+esac
+

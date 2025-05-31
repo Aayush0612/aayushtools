@@ -42,11 +42,8 @@ tools i made for my arch linux install which other devs can also use to make the
     PS: I'm using bash, if you're using something else, like ksh/zsh/fish edit it.
 
 
-    use keyboardmax to max out the brightness
-  
-    use keyboardmed to set it to medium
-  
-    use keyboardmin to turn it off
+  use keyboardmax to max out the brightness
+  use keyboardmed to set it to medium
+  use keyboardmin to turn it off
 
-
-    enjoy, more tools coming soon!
+  enjoy, more tools coming soon!
